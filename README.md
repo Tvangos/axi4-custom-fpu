@@ -20,6 +20,9 @@ The system bridges the gap between the Processing System (PS) and Programmable L
     * `Register 4 (0x04)`: Operand A, 32-bit FP.
     * `Register 8 (0x08)`: Operand B, 32-bit FP.
 
+![System Architecture](images/sys_architecture.png)
+![Block_Diagram](images/block_diagram.png)
+
 ## Repository Structure
 * `/hw`: Verilog source files for the FPU (`fpadd_pipelined.v`), debouncers, SSD drivers, and top-level wrappers.
 * `/sw`: Bare-metal C application (`btn_interupts.c`) running on the ARM Cortex-A9.
